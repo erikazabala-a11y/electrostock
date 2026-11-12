@@ -1,0 +1,19 @@
+{
+  "name": "electrostock-backend",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "API de Electrostock: inventario de componentes electrónicos",
+  "engines": { "node": ">=22.18" },
+  "scripts": {
+    "dev": "node --watch src/server.ts",
+    "start": "node src/server.ts",
+    "test": "node --test \"test/**/*.test.ts\"",
+    "typecheck": "tsc --noEmit",
+    "seed": "node scripts/seed.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.9.0"
+  }
+}
