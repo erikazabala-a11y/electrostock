@@ -37,6 +37,10 @@ Otros comandos: `npm test` (tests del backend), `npm run typecheck`.
 
 Variables de entorno del backend: `PORT` (3000), `DATA_FILE` (`backend/data/componentes.json`), `STOCK_BAJO_UMBRAL` (5), `FRONTEND_DIST`, `CORS_ORIGIN`.
 
+## Publicarlo en internet (Render)
+
+El repo incluye `render.yaml`. En render.com: **New → Blueprint**, elegir este repositorio y **Apply**. Render compila y publica un único servicio con la API y la interfaz. En el plan gratis el archivo de datos no es permanente: se reinicia vacío tras un tiempo de inactividad (sirve para demostrar, no para guardar datos reales).
+
 ## Funcionalidades
 
 Alta, edición y baja de componentes · búsqueda por nombre (sin tildes ni mayúsculas) · filtro por categoría · orden por nombre, cantidad o fecha · stock bajo y agotados · favoritos · ubicación física · ajuste rápido de stock (+/−) · estadísticas clicables · paginación · importación de lo que tenías en el `localStorage` de la versión anterior · estados de carga, error y vacío · diseño responsive.

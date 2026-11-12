@@ -1,0 +1,12 @@
+# Despliegue en Render (plan gratis): un solo servicio que sirve la API y la interfaz.
+services:
+  - type: web
+    name: electrostock
+    runtime: node
+    plan: free
+    buildCommand: npm install --prefix backend && npm install --include=dev --prefix frontend && npm run build
+    startCommand: npm start
+    healthCheckPath: /api/salud
+    envVars:
+      - key: NODE_VERSION
+        value: 22.18.0
