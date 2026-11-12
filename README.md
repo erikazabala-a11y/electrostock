@@ -8,6 +8,14 @@ Aplicación web para organizar el inventario de componentes electrónicos de un 
 
 Trabajo Práctico N.º 1 y Actividad de Backend — Zabala, Erika Morena.
 
+## Capturas
+
+![Pantalla principal](docs/escritorio.png)
+
+| Formulario | Celular |
+|---|---|
+| ![Formulario de alta](docs/formulario.png) | ![Vista en celular](docs/celular.png) |
+
 ## Cómo ejecutarlo
 
 Requiere **Node.js 22.18 o superior**.
