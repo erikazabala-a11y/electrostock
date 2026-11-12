@@ -6,7 +6,7 @@ Aplicación web para organizar el inventario de componentes electrónicos de un 
 - **Backend:** Node.js + TypeScript, arquitectura **Controller → Service → Repository**, sin dependencias de runtime.
 - **Persistencia:** archivo JSON con escritura atómica, detrás de una interfaz `Repository` (se puede cambiar por SQLite/PostgreSQL sin tocar las reglas de negocio).
 
-Trabajo Práctico N.º 1 y Actividad de Backend — Zabala, Erika Morena.
+Trabajo Final — Zabala, Erika Morena.
 
 ## Capturas
 
